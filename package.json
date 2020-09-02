@@ -17,8 +17,12 @@
     "url": "https://github.com/Daliuxas200/learning-webpack/issues"
   },
   "homepage": "https://github.com/Daliuxas200/learning-webpack#readme",
-  "dependencies": {},
+  "dependencies": {
+    "lodash": "^4.17.20"
+  },
   "devDependencies": {
+    "css-loader": "^4.2.2",
+    "style-loader": "^1.2.1",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
   }
