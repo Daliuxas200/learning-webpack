@@ -1,4 +1,13 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('./font.woff2') format('woff2'),
+        url('./font.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
 .hello {
     background-color: red;
     background: url('./pepe.jpg');
+    font-family: 'MyFont';
 }
